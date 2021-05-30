@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title> kieu thoai </title>
+        <link rel="stylesheet" href="anh.css">
+        <link rel="stylesheet" href="jquery.flipster.min.css">
+        <link href='https://fonts.googleapis.com/css?family=Pattaya' rel='stylesheet'>
+    </head>
+    <style>
+        .redtext {
+            color: whitesmoke;
+            text-align: center;
+        }
+        body {
+    font-family: 'Pattaya';font-size: 22px;
+}
+        </style>
+    <body>
+        
+        <div class="hero">
+            <p class="redtext" style="font-size: 49px" >Chào mừng đến với thư viện ảnh</p>
+        <p class="redtext" style="font-size: 38px" >Kiều Quang Thoại - B17DCDT175</p>
+            <div class="carousel">
+                <ul>
+                    
+                    <li><img src="1.jpg" alt=""></li>
+                    <li><img src="2.jpg" alt=""></li>
+                    <li><img src="3.jpg" alt=""></li>
+                    <li><img src="4.jpg" alt=""></li>
+                </ul>
+            </div>
+
+        </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="jquery.flipster.min.js"></script> 
+    <script>
+        $('.carousel').flipster({
+            style:'carousel',
+            spacing: -0.3, 
+        });
+    </script>  
+    </body>
+</html>
